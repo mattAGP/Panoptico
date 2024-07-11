@@ -117,7 +117,7 @@ legend_elements = [
 plt.legend(handles=legend_elements, loc='upper right')
 
 # Show the plot with adjusted title
-plt.title("Red de personas involucradas en presuntos actos de corrupción (4.1 HECHO 1)", fontsize=16)
+plt.title("Red de personas involucradas en presuntos actos de corrupción", fontsize=16)
 plt.axis("off")  # Turn off axis for cleaner look
 plt.tight_layout()
 plt.show()
